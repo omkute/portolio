@@ -120,3 +120,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 30s linear infinite;
+}

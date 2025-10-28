@@ -3,7 +3,7 @@ import React from 'react'
 
 function HeroSection() {
     return (
-        <section className=' w-full lg:max-w-[80vw] mx-auto h-[80vh] lg:flex items-center justify-center'>
+        <section className=' w-full lg:max-w-[80vw] mx-auto lg:h-[70vh] lg:flex items-center justify-center'>
             <div className=' p-3 lg:min-w-[40%] '>
                 <div className=' items-center flex flex-col'>
                     <Image
@@ -18,7 +18,7 @@ function HeroSection() {
                 </div>
             </div>
             <div className='font-extralight text-gray-700 dark:text-gray-500 space-y-2 text-lg'>
-                <p className='  inline-block'>
+                <p className='  '>
                     Hii, I’m {" "}
                     <span className='underline decoration-blue-500 decoration-wavy underline-offset-5 hover:text-foreground transition-all duration-150 ease-[cubic-bezier(0.08, 0.82, 0.17, 1)]'>Om</span>  <br />
                     A computer science undergrad from {" "}
@@ -49,7 +49,7 @@ function HeroSection() {
                         X
                     </span>
                     {" "}
-                    , or Watching/reading about Automibiles.</p>
+                    , or Watching/reading about Automotive Content.</p>
 
             </div>
         </section>
